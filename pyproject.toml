@@ -1,0 +1,11 @@
+[project]
+name = "localstack-101"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "boto3>=1.38.45",
+    "localstack>=4.5.0",
+    "pyspark==3.5.0",
+]
